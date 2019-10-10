@@ -2320,6 +2320,7 @@ input, select, textarea {
 			padding: 0 0 1em 1.5em;
 			top: 0.25em;
 		}
+		
 
 		.image.fit {
 			display: block;
@@ -2345,6 +2346,13 @@ input, select, textarea {
 
 				.image.main {
 					margin: 0 0 2em 0;
+				}
+
+				.image.right, .image.left{
+					all: unset;	
+					display: block;
+					margin: 0 0 2em 0;
+					width: 100%;
 				}
 
 			}
